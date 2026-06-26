@@ -1,0 +1,38 @@
+body{
+    margin:0;
+    font-family:Arial;
+}
+
+.cabecera{
+    position:relative;
+    height:70px;
+    background:#222;
+}
+
+.menu{
+    position:absolute;
+    top:20px;
+    left:40px;
+    z-index:1;
+}
+
+.menu a{
+    color:white;
+    margin-right:25px;
+    text-decoration:none;
+}
+
+.banner{
+    position:relative;
+    margin-top:-70px;
+    height:400px;
+    background:url(imagen.png);
+    background-size:cover;
+    z-index:2;
+}
+
+.banner h1{
+    color:white;
+    padding-top:170px;
+    text-align:center;
+}
